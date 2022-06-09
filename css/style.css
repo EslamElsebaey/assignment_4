@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 .container {
   width: 80%;
@@ -70,7 +71,7 @@
   z-index: 3;
   padding-top: 20px;
 }
-/* .navbar{
+.navbar{
     position: fixed;
     top: 0;
     right: 0;
@@ -84,7 +85,7 @@
 .navbar .nav-container{
     width: 80%;
     margin: auto;
-} */
+}
 .home::before {
   position: absolute;
   content: "";
